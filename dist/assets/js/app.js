@@ -4947,6 +4947,7 @@ var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__.default('.swiper', {
   loop: true,
   slidesPerView: 3,
   spaceBetween: 30,
+  autoplay: 2500,
   // If we need pagination
   pagination: {
     el: '.swiper-pagination'

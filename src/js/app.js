@@ -9,6 +9,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 30,
+    autoplay: 2500,
 
     // If we need pagination
     pagination: {

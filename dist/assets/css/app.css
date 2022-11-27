@@ -10832,6 +10832,13 @@ textarea.form-control-lg {
   width: 195px;
 }
 
+.btn-primary {
+  color: #fff !important;
+}
+.btn-primary svg {
+  fill: #fff;
+}
+
 .section_name {
   text-align: center;
   color: #777;
@@ -10952,4 +10959,51 @@ header ul li {
 }
 .slider .swiper .swiper-slide:hover img {
   transform: scale(1.2);
+}
+
+.map {
+  color: #333;
+  padding: 50px 0;
+}
+.map iframe {
+  width: 100%;
+  height: 400px;
+}
+.map .inner {
+  color: #aeaeae;
+}
+.map .inner div a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.map .inner div a:hover {
+  text-decoration: underline;
+}
+.map .inner div a:not(:first-child) {
+  color: #aeaeae;
+}
+.map .inner div a:not(:first-child):hover {
+  color: #6c757d;
+}
+.map h3, .map .h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+.map p {
+  font-size: 22px;
+  color: #333;
+}
+.map span {
+  font-size: 18px;
+}
+.map strong {
+  color: #3490dc;
+  font-size: 14px;
+  padding: 0 5px;
+}
+.map svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  fill: #6c757d;
 }
