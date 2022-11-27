@@ -1,10 +1,28 @@
 require('./bootstrap');
 
-import Vue from "vue";
+import Swiper from 'swiper';
+import 'swiper/css';
 
-// Пример компонента
-Vue.component('example-component', require('./components/ExampleComponent').default);
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
 
-new Vue({
-    el: '#app',
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
 });

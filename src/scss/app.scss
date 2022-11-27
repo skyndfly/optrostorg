@@ -6,3 +6,134 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+
+.logo{
+    width: 195px;
+}
+.section_name{
+    text-align: center;
+    color: $gray;
+    display: block;
+    margin-bottom: 20px;
+}
+.nav{
+    color: $black;
+    .nav_content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        .link{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+}
+header{
+    color: $black;
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    img{
+        width: 300px;
+    }
+    a{
+        color: $white!important;
+    }
+    ul{
+        margin-bottom: 40px;
+        li{
+            list-style: "📌";
+            font-size: 18px;
+        }
+    }
+
+}
+.about_us{
+    color: $black;
+    padding: 50px 0;
+
+    h2{
+        font-weight: 400;
+        strong{
+            font-weight: 700;
+            color: $primary;
+        }
+    }
+}
+
+.slider{
+    padding: 50px 0;
+    .swiper {
+        width: 100%;
+        height: 500px;
+        .swiper-slide{
+            position: relative;
+            overflow: hidden;
+
+            img{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                transition: transform .3s
+            }
+            .cover{
+                position: absolute;
+                left: 0;
+                bottom: -5%;
+                width: 100%;
+                padding: 20px 0;
+                background-color: #f0634c;
+                text-align: center;
+                opacity: 0;
+                font-size: 20px;
+                color: $white;
+                transition: opacity .5s, bottom .5s;
+                p{
+                    margin: 0;
+                }
+            }
+            .cover_top{
+                position: absolute;
+                left: 0;
+                top: -5%;
+                width: 100%;
+                padding: 20px 0;
+                background-color: #f0634c;
+                text-align: center;
+                opacity: 0;
+                font-size: 20px;
+                color: $white;
+                transition: opacity .5s, top .5s;
+            }
+            &:hover{
+                .cover{
+                    opacity: 0.9;
+                    bottom: 0;
+                }
+                .cover_top{
+                    opacity: 0.9;
+                    top: 0;
+                }
+                img{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
