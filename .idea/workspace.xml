@@ -4,9 +4,7 @@
     <list default="true" id="cf73e8e5-c6e5-44a4-a7a3-304d2fe944d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +42,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669577668677</updated>
-      <workItem from="1669577670825" duration="4717000" />
+      <workItem from="1669577670825" duration="5103000" />
+      <workItem from="1669666748698" duration="1776000" />
     </task>
+    <task id="LOCAL-00001" summary="начал делать блок с картой">
+      <created>1669582588961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669582588961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="начал делать блок с картой" />
+    <option name="LAST_COMMIT_MESSAGE" value="начал делать блок с картой" />
   </component>
 </project>
