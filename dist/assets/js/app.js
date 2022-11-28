@@ -4947,7 +4947,25 @@ var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__.default('.swiper', {
   loop: true,
   slidesPerView: 3,
   spaceBetween: 30,
-  autoplay: 2500,
+  autoplay: {
+    delay: 3000
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  },
   // If we need pagination
   pagination: {
     el: '.swiper-pagination'
