@@ -10912,6 +10912,9 @@ header ul li {
   width: 100%;
   height: 500px;
 }
+.slider .swiper .swiper-button-next:after, .slider .swiper .swiper-button-prev:after {
+  color: #3490dc;
+}
 .slider .swiper .swiper-slide {
   position: relative;
   overflow: hidden;

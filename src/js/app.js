@@ -1,16 +1,21 @@
 require('./bootstrap');
 
-import Swiper from 'swiper';
+// core version + navigation, pagination modules:
+import Swiper, { Navigation, Pagination, Autoplay } from 'swiper';
+// import Swiper and modules styles
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
+    modules: [Navigation, Pagination, Autoplay],
     direction: 'horizontal',
     loop: true,
     slidesPerView: 3,
     spaceBetween: 30,
     autoplay: {
-        delay: 3000,
+      delay: 3000,
     },
     breakpoints: {
         // when window width is >= 320px

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf73e8e5-c6e5-44a4-a7a3-304d2fe944d4" name="Changes" comment="закончил блок с картой">
+    <list default="true" id="cf73e8e5-c6e5-44a4-a7a3-304d2fe944d4" name="Changes" comment="фикс мобильной верстки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.js" afterDir="false" />
@@ -32,8 +35,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669577668677</updated>
       <workItem from="1669577670825" duration="5103000" />
-      <workItem from="1669666748698" duration="4162000" />
+      <workItem from="1669666748698" duration="4199000" />
+      <workItem from="1669919083981" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="начал делать блок с картой">
       <created>1669582588961</created>
@@ -61,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669668565139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="фикс мобильной верстки">
+      <created>1669671478641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669671478641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="начал делать блок с картой" />
     <MESSAGE value="закончил блок с картой" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил блок с картой" />
+    <MESSAGE value="фикс мобильной верстки" />
+    <option name="LAST_COMMIT_MESSAGE" value="фикс мобильной верстки" />
   </component>
 </project>
